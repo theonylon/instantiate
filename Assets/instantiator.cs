@@ -19,6 +19,13 @@ public class instantiator : MonoBehaviour
 
     public void CloneObject ()
     {
-        Instantiate(objectToClone);
+
+        int a = 1;
+        while (a < 4)
+        {
+            Instantiate(objectToClone);
+
+            a++;
+        }
     }
 }
